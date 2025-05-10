@@ -1,0 +1,141 @@
+.navbar {
+  width: 100%;
+  position: sticky; /* Or fixed, depending on your layout */
+  top: 0;
+  z-index: 10; /* Ensure it's above other content */
+}
+
+.topBar {
+  background-color: #800020; /* Example maroon color */
+  color: white;
+  padding: 8px 0;
+}
+
+.topBarContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.topBarLink {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.topBarLink .icon {
+  margin-right: 5px;
+}
+
+.mainNav {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.mainNavContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+.logoLink {
+  text-decoration: none;
+}
+
+.logo {
+  height: 40px; /* Adjust logo size */
+}
+
+.navigationLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333; /* Example text color */
+  padding: 10px 15px;
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none; /* Hidden by default */
+  z-index: 1;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+
+.dropdownMenu li a {
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdownMenu li a:hover {
+  background-color: #f0f0f0;
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+}
+
+.requestInfoButton {
+  background-color: #f0f0f0; /* Example button background */
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.applyNowButton {
+  background-color: #007bff; /* Example primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.searchButton {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Add more specific styling to match CSU Global's look and feel */
